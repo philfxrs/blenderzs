@@ -1,0 +1,20 @@
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+include = "\\.pyi?$"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "W"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"addons/ai_modeler/__init__.py" = ["F401"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra"
+testpaths = ["addons/ai_modeler/tests"]
