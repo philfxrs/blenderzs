@@ -1,0 +1,17 @@
+{
+  "metal_brushed": {
+    "base_color": [0.7, 0.7, 0.72, 1.0],
+    "metallic": 0.95,
+    "roughness": 0.35
+  },
+  "plastic": {
+    "base_color": [0.2, 0.2, 0.8, 1.0],
+    "metallic": 0.0,
+    "roughness": 0.4
+  },
+  "wood": {
+    "base_color": [0.4, 0.25, 0.1, 1.0],
+    "metallic": 0.0,
+    "roughness": 0.6
+  }
+}

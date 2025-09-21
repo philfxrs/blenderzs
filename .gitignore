@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.zip
+.venv/
+pytest.cache/
+.mypy_cache/
+.DS_Store
+.idea/
+.vscode/
